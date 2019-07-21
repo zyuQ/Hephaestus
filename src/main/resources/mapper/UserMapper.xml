@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyu.zeus.mapper.UserMapper">
+
+
+    <resultMap type="com.zyu.zeus.pojo.User"        id="UserVo">
+        <result property="useId"                    column="use_id"/>
+        <result property="useName"                  column="use_name"/>
+        <result property="usePhone"                 column="use_phone"/>
+        <result property="useHeadPortrait"          column="use_head_portrait"/>
+        <result property="useOpenid"                column="use_openid"/>
+        <result property="useMemo"                  column="use_memo"/>
+        <result property="useCreateTime"            column="use_create_time"/>
+        <result property="useLastTime"              column="use_last_time"/>
+    </resultMap>
+
+    <!--查询所有用户信息-->
+    <select id="findUserAll" parameterType="com.zyu.zeus.pojo.User" resultMap="UserVo">
+        SELECT use_id, use_name, use_phone, use_head_portrait, use_openid, use_memo, use_create_time, use_last_time FROM t_user
+        <where>
+            <if test="useId != null" >
+                AND use_id = #{useId}
+            </if>
+            <if test="useName != null" >
+                AND use_name = #{useName}
+            </if>
+            <if test="usePhone != null" >
+                AND use_phone = #{usePhone}
+            </if>
+            <if test="useHeadPortrait != null" >
+                AND use_head_portrait = #{useHeadPortrait}
+            </if>
+            <if test="useOpenid != null" >
+                AND use_openid = #{useOpenid}
+            </if>
+            <if test="useMemo != null" >
+                AND use_memo = #{useMemo}
+            </if>
+        </where>
+    </select>
+
+    <!--修改用户信息-->
+    <update id="updateUser" parameterType="com.zyu.zeus.pojo.User">
+        UPDATE t_user SET use_last_time = NOW()
+        <trim suffixOverrides=",">
+            <if test="useName != null">, use_name = #{useName} </if>
+            <if test="usePhone != null">, use_phone = #{usePhone} </if>
+            <if test="useHeadPortrait != null">, use_head_portrait = #{useHeadPortrait} </if>
+            <if test="useOpenid != null">, use_openid = #{useOpenid} </if>
+            <if test="useMemo != null">, use_memo = #{useMemo} </if>
+        </trim>
+        WHERE use_id = #{useId}
+    </update>
+
+</mapper>

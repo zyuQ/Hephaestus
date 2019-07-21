@@ -1,0 +1,76 @@
+2019-07-21 16:41:09.166  INFO 9104 --- [restartedMain] com.zyu.zeus.ZeusBackEndApplication      : Starting ZeusBackEndApplication on WIN-EVJIDN748A5 with PID 9104 (started by Administrator in E:\Tool folder\项目\项目框架\Hephaestus)
+2019-07-21 16:41:09.172  INFO 9104 --- [restartedMain] com.zyu.zeus.ZeusBackEndApplication      : No active profile set, falling back to default profiles: default
+2019-07-21 16:41:09.281  INFO 9104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-21 16:41:09.282  INFO 9104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-21 16:41:11.290  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-21 16:41:11.290  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-21 16:41:11.370  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
+2019-07-21 16:41:11.393  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-21 16:41:11.395  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-21 16:41:11.419  INFO 9104 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zyu.zeus.dao.UserDao.
+2019-07-21 16:41:11.419  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-07-21 16:41:11.933  INFO 9104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$62428ffd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-21 16:41:12.424  INFO 9104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8700 (http)
+2019-07-21 16:41:12.454  INFO 9104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-21 16:41:12.454  INFO 9104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-21 16:41:12.655  INFO 9104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-21 16:41:12.655  INFO 9104 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3373 ms
+2019-07-21 16:41:13.432  INFO 9104 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-21 16:41:13.598  INFO 9104 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-21 16:41:13.603  INFO 9104 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-21 16:41:13.909  INFO 9104 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-21 16:41:14.155  INFO 9104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-07-21 16:41:14.868  INFO 9104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-07-21 16:41:14.879  INFO 9104 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-21 16:41:16.412  INFO 9104 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-21 16:41:16.545  INFO 9104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-21 16:41:17.655  INFO 9104 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-21 16:41:19.013  INFO 9104 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-21 16:41:19.034  INFO 9104 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-21 16:41:19.048  INFO 9104 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-21 16:41:19.313  INFO 9104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8700 (http) with context path ''
+2019-07-21 16:41:19.318  INFO 9104 --- [restartedMain] com.zyu.zeus.ZeusBackEndApplication      : Started ZeusBackEndApplication in 11.112 seconds (JVM running for 12.827)
+2019-07-21 16:41:36.804  INFO 9104 --- [http-nio-8700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-21 16:41:36.805  INFO 9104 --- [http-nio-8700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-21 16:41:36.828  INFO 9104 --- [http-nio-8700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2019-07-21 16:44:25.237  INFO 8772 --- [restartedMain] com.zyu.zeus.ZeusBackEndApplication      : Starting ZeusBackEndApplication on WIN-EVJIDN748A5 with PID 8772 (started by Administrator in E:\Tool folder\项目\项目框架\Hephaestus)
+2019-07-21 16:44:25.242  INFO 8772 --- [restartedMain] com.zyu.zeus.ZeusBackEndApplication      : No active profile set, falling back to default profiles: default
+2019-07-21 16:44:25.334  INFO 8772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-21 16:44:25.334  INFO 8772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-21 16:44:27.476  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-21 16:44:27.477  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-21 16:44:27.565  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 1 repository interfaces.
+2019-07-21 16:44:27.586  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-21 16:44:27.588  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-21 16:44:27.612  INFO 8772 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zyu.zeus.dao.UserDao.
+2019-07-21 16:44:27.613  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-07-21 16:44:28.180  INFO 8772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1b60472] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-21 16:44:28.753  INFO 8772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8700 (http)
+2019-07-21 16:44:28.788  INFO 8772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-21 16:44:28.788  INFO 8772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-21 16:44:29.003  INFO 8772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-21 16:44:29.003  INFO 8772 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3649 ms
+2019-07-21 16:44:29.435  INFO 8772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-21 16:44:29.527  INFO 8772 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-21 16:44:29.530  INFO 8772 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-21 16:44:29.735  INFO 8772 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-21 16:44:29.891  INFO 8772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-07-21 16:44:30.255  INFO 8772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-07-21 16:44:30.265  INFO 8772 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-21 16:44:31.376  INFO 8772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-21 16:44:31.443  INFO 8772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-21 16:44:32.486  INFO 8772 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-21 16:44:33.761  INFO 8772 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-21 16:44:33.785  INFO 8772 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-21 16:44:33.797  INFO 8772 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-21 16:44:34.051  INFO 8772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8700 (http) with context path ''
+2019-07-21 16:44:34.054  INFO 8772 --- [restartedMain] com.zyu.zeus.ZeusBackEndApplication      : Started ZeusBackEndApplication in 9.875 seconds (JVM running for 11.607)
+2019-07-21 16:44:42.738  INFO 8772 --- [http-nio-8700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-21 16:44:42.738  INFO 8772 --- [http-nio-8700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-21 16:44:42.748  INFO 8772 --- [http-nio-8700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-07-21 16:44:47.534  INFO 8772 --- [http-nio-8700-exec-8] c.z.zeus.advice.DecodeRequestBodyAdvice  : 对方法method :【testEncrypt】返回数据进行解密
+2019-07-21 16:44:48.140  INFO 8772 --- [http-nio-8700-exec-8] c.z.z.advice.EncodeResponseBodyAdvice    : 对方法method :【testEncrypt】返回数据进行加密
